@@ -1,0 +1,10 @@
+﻿{
+	"Id": "SavingThrowDisplayFix",
+	"DisplayName": "Saving Throw Display Fix",
+	"Author": "Olaroll",
+	"Version": "1.0.0",
+	"ManagerVersion": "0.21.3",
+	"Requirements": [],
+	"AssemblyName": "SavingThrowDisplayFix.dll",
+	"EntryMethod": "SavingThrowDisplayFix.Main.Load"
+}
