@@ -40,7 +40,7 @@ namespace SavingThrowDisplayFix
             static bool Prefix(RuleSavingThrow evt, OvertipsVM __instance)
             {
                 OnEventDidTrigger(evt, __instance);
-                return false; // Always 
+                return false; // Always skip the original code
             }
 
             static void OnEventDidTrigger(RuleSavingThrow evt, OvertipsVM __instance)
