@@ -101,7 +101,7 @@ namespace SavingThrowDisplayFix
                 //* 0x00000109 0B           */ IL_0109: stloc.1
 
                 int foundIndex = -1;
-                for (int i = 0; i < code.Count - 1; i++) // -1 since we will be checking i + 1
+                for (int i = 0; i < code.Count - 15; i++) // -15 since we will be checking i + 15
                 {
                     if (code[i].opcode == OpCodes.Call
                         && code[i + 1].opcode == OpCodes.Ldfld
